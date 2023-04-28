@@ -12,9 +12,17 @@
     <div class="color-input-div">
       <input type="color" class="color-picker">
       <select name="color-dropdown" id="color-dropdown">
-        <option value="">monochrome</option>
+        <option value="" selected disabled>Select a theme</option>
+        <option value="monochrome">monochrome</option>
+        <option value="monochrome-dark">monochrome-dark</option>
+        <option value="monochrome-light">monochrome-light</option>
+        <option value="analogic">analogic</option>
+        <option value="complement">complement</option>
+        <option value="analogic-complement">analogic-complement</option>
+        <option value="triad">triad</option>
+        <option value="quad">quad</option>
       </select>
-      <button>get color scheme</button>
+      <button class="get-btn">get color scheme</button>
     </div>
     <div class="color-scheme-div">
       <div class="color color-1">

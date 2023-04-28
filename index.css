@@ -45,16 +45,19 @@ select {
   height: 40px;
   border: 1px solid #D1D5DB;
   border-radius: 6px;
+  padding-left: 1em;
 }
 
-button {
+.get-btn {
   width: 25%;
   height: 40px;
   border: 1px solid #D1D5DB;
   border-radius: 6px;
   background-color: white;
+  cursor: pointer;
 }
 
+/* COLORS SECTION */
 .color-scheme-div {
   display: flex;
   align-items: center;
