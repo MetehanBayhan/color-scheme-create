@@ -22,6 +22,7 @@ body {
 .main {
   width: 550px;
   height: 550px;
+  position: relative
 }
 
 /* top section */
@@ -77,27 +78,28 @@ select {
   margin-top: auto;
   width: 100%;
   text-align: center;
-  padding: 1em;
   background-color: white;
+  transition: background 250ms;
 }
 
 .hex-code {
   margin: 0;
+  padding: 1em;
 }
 
-.color-1 {
-  background-color: #F55A5A;
+.hex-code-wrapper:hover,
+.hex-code-wrapper:focus{
+  background-color: #D1D5DB;
+  cursor: pointer;
 }
 
-.color-2 {
-  background-color: #2B283A;
-}
-.color-3 {
-  background-color: #FBF3AB;
-}
-.color-4 {
-  background-color: #AAD1B6;
-}
-.color-5 {
-  background-color: #A626D3;
+
+.copy-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 1em 2em;
 }
