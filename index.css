@@ -39,7 +39,7 @@ body {
   width: 12%;
   height: 40px;
   background-color: #D1D5DB;
-  border: 0.5px solid #D1D5DB
+  border: .3px solid #D1D5DB;
 }
 
 select {
